@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { evaluateTransaction } from "../policy/engine.js";
-import { DEFAULT_POLICY } from "../policy/default-policy.js";
+import { evaluateTransaction } from "./engine.js";
+import import { DEFAULT_POLICY } from "./default-policy.js";
 
 const base = {
   protocol: "Approved Stable Pool",
